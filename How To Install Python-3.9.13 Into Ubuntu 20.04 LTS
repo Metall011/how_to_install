@@ -1,0 +1,37 @@
+# !/bin/sh
+
+sudo apt update
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+sudo apt-get install build-essential checkinstall
+sudo apt autoremove
+sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+cd /opt
+sudo wget https://www.python.org/ftp/python/3.9.13/Python-3.9.13.tgz
+sudo tar xzf Python-3.9.13.tgz
+ls -la
+sudo rm -f Python-3.9.13.tgz
+cd Python-3.9.13
+sudo ./configure --enable-optimizations
+sudo make altinstall
+sudo apt-get install python3-pip
+python3.9 -V
+
+sudo nano ~/.bashrc
+
+# Add into the bottom 
+alias python=python3
+alias pip=pip3
+# Save & Exit ctrl+s and ctrl+x
+
+alias python=python3
+alias pip=pip3
+source ~/.bashrc
+sudo apt update
+sudo apt upgrade -y
+python3 --version
+python --version
+
+pip3 --version
+python3 --version
+pip --version
+python --version
