@@ -16,22 +16,3 @@ sudo make altinstall
 sudo apt-get install python3-pip
 python3.9 -V
 
-sudo nano ~/.bashrc
-
-# Add into the bottom 
-alias python=python3
-alias pip=pip3
-# Save & Exit ctrl+s and ctrl+x
-
-alias python=python3
-alias pip=pip3
-source ~/.bashrc
-sudo apt update
-sudo apt upgrade -y
-python3 --version
-python --version
-
-pip3 --version
-python3 --version
-pip --version
-python --version
