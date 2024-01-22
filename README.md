@@ -1,3 +1,3 @@
 ## How to install
-installation instruction
+Installation instruction.
 This section is a repository of references that helps me in writing documentation.
