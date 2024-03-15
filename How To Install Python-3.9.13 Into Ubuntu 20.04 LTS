@@ -15,3 +15,6 @@ sudo ./configure --enable-optimizations
 sudo make altinstall
 sudo apt-get install python3-pip
 python3.9 -V
+
+sudo apt install -y python3-pip
+sudo apt install -y python3-venv
